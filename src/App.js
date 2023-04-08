@@ -1,16 +1,19 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import CartItems from './components/CartItems';
 import CartTotal from './components/CartTotal';
+import items from './Data';
 
 function App() {
+  const [cartItems, setCartItems] = useState(items);
   return (
     <div className="App">
       <Header title='Amazon Cart'/>
       <div className='App-main'>
-        <CartItems />
-        <CartTotal />
+        <CartItems items = {cartItems}/>
+        <CartTotal items = {cartItems}/>
       </div>
     </div>
   );

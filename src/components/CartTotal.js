@@ -1,7 +1,7 @@
 import React from 'react'
 import './CartTotal.css'
 
-function CartTotal() {
+function CartTotal( {items} ) {
   return (
     <div className='CartTotal'>
 
