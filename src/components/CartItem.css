@@ -1,7 +1,7 @@
 .CartItem{
     display: flex;
     border-bottom: 1px solid #DDD;
-    padding: 12px 0
+    padding: 12px 0;
 }
 
 .CartItem-img{

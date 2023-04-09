@@ -5,3 +5,9 @@
     text-align: left;
     padding: 20px;
 }
+
+@media screen and (max-width: 850px){
+    .CartItems{
+      margin-right: 0;
+    }
+  }
