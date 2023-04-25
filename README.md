@@ -10,7 +10,6 @@ https://amazon-cart-clone-react.netlify.app/
 
 <ul>
 <li>React</li>
-<li>TMDB API</li>
 </ul>
 
 <h2>License</h2>
