@@ -1,5 +1,7 @@
 # Amazon Cart Clone using React
 
+<img src="https://github.com/Abdullah-Anaz/amazon-cart/blob/main/amazoncartclone.png" alt="amazon cart clone"/>
+
 <p>This is a web application built using ReactJS that clones the functionality of the Amazon cart. Users can remove items from the cart, adjust the quantity of each item, and view the total price of their order.</p>
 
 <h2>Live:</h2>
